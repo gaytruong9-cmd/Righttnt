@@ -1,0 +1,20 @@
+{
+   	"schemaVersion": 1,
+   	"id": "righttnt",
+   	"version": "${version}",
+   	"name": "Right Click Cobweb",
+   	"description": "Chuot phai xuong dat de tu dong dat to nhen (cobweb).",
+   	"authors": ["You"],
+   	"contact": {},
+   	"license": "MIT",
+   	"environment": "*",
+   	"entrypoints": {
+   		"main": ["com.rightclicktnt.RightClickTnt"]
+   	},
+   	"depends": {
+   		"fabricloader": ">=0.16.9",
+   		"minecraft": "~1.21.1",
+   		"java": ">=21",
+   		"fabric-api": "*"
+   	}
+}
